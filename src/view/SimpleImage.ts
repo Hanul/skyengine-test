@@ -1,4 +1,4 @@
-import { Fullscreen } from "@hanul/skyengine";
+import { Fullscreen, Image } from "@hanul/skyengine";
 import { View, ViewParams } from "skyrouter";
 
 export default class SimpleImage implements View {
@@ -7,9 +7,10 @@ export default class SimpleImage implements View {
 
     constructor() {
         this.screen = new Fullscreen({
-            width: 100,
-            height: 100,
+            width: 1000,
+            height: 1000,
         });
+        new Image(0, 0, "/resources/hello.png").appendTo(this.screen.root);
     }
 
     public changeParams(params: ViewParams, uri: string): void { }
