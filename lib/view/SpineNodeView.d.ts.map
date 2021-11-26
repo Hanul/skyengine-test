@@ -1,0 +1,1 @@
+{"version":3,"file":"SpineNodeView.d.ts","sourceRoot":"","sources":["../../src/view/SpineNodeView.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,IAAI,EAAE,UAAU,EAAE,MAAM,WAAW,CAAC;AAE7C,MAAM,CAAC,OAAO,OAAO,aAAc,YAAW,IAAI;IAE9C,OAAO,CAAC,MAAM,CAAa;;IAiBpB,YAAY,CAAC,MAAM,EAAE,UAAU,EAAE,GAAG,EAAE,MAAM,GAAG,IAAI;IAEnD,KAAK,IAAI,IAAI;CAGvB"}

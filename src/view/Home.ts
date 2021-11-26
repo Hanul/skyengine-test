@@ -9,6 +9,7 @@ export default class Home implements View {
     constructor() {
         this.container = el(".home-view",
             el("a", "심플 이미지", { click: () => ViewUtil.go("/simpleimage") }),
+            el("a", "스파인 노드", { click: () => ViewUtil.go("/spinenode") }),
         ).appendTo(BodyNode);
     }
 
